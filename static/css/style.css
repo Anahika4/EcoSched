@@ -1,0 +1,64 @@
+
+body {
+    background-color: #f4f7fb;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #172554;
+    padding: 18px;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.main-heading {
+    color: #172554;
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card-header {
+    background-color: #e0e7ff;
+    font-weight: bold;
+    color: #172554;
+}
+
+.btn-primary {
+    background-color: #172554;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #263c78;
+}
+
+.gantt-box {
+    display: inline-block;
+    padding: 12px;
+    margin: 5px;
+    background-color: #dbeafe;
+    border: 1px solid #172554;
+    border-radius: 5px;
+    text-align: center;
+    min-width: 90px;
+}
+
+.chart-container {
+    position: relative;
+    height: 350px;
+    width: 100%;
+}
+
+#results,
+#comparisonResults {
+    display: none;
+}
